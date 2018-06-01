@@ -90,7 +90,7 @@ gulp.task('deploy-ftp', function () {
     const path = '/wp-content/themes/medika72/data/';
 
     var globs = [
-        '../assets/' + subfolder + '/**'
+        '../data/' + subfolder + '/**'
     ];
 
     conn.rmdir(path + subfolder, function (e) {
