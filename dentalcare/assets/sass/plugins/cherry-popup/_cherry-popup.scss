@@ -1,0 +1,16 @@
+.cherry-popup{
+	&-wrapper {
+		.cherry-popup-container {
+			min-height: 670px;
+		}
+	}
+}
+.popup-type-login{
+	.cherry-popup-login__login-in {
+		background-color: #02aeae;
+		&:hover {
+			background-color: #333333;
+		}
+	}
+} 
+	
