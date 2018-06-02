@@ -4,3 +4,54 @@
 header#masthead.site-header.style-1 div.top-panel.invert div.container div.top-panel__container div.top-panel__wrap-items div.top-panel__menus {
   justify-content: flex-end;
 }
+
+.header-nav-wrapper {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.address__text {
+  padding-right: 10px;
+}
+
+.menu-icon {
+  padding-right: 10px;
+  color: $color-main;
+}
+
+.phone, .address__text {
+  display: flex;
+  align-items: center;
+}
+
+#masthead {
+  margin-top: 0;
+}
+
+.site-logo__link img{
+  transition: all .5s ease-out;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-width: 1199px) {
+  div.top-panel__menus div.social-list.social-list--header.social-list--icon {
+    padding-right: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .header-nav-wrapper {
+    flex-direction: column;
+  }
+  .site-branding {
+    padding-bottom: 15px;
+  }
+  div.header-nav-wrapper {
+    align-items: center;
+  }
+  .address__text {
+    padding-bottom: 10px;
+  }
+}

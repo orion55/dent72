@@ -44,8 +44,8 @@ if ( ! class_exists( 'Cherry5_Insertion_Button' ) ) {
 			$this->args        = $args;
 			$this->parent_self = $parent_self;
 
-			add_action( 'media_buttons', array( $this, 'add_button' ) );
-			add_action( 'cherry5-insert-shortcode', array( $this, 'add_button' ) );
+//			add_action( 'media_buttons', array( $this, 'add_button' ) );
+//			add_action( 'cherry5-insert-shortcode', array( $this, 'add_button' ) );
 		}
 
 		/**

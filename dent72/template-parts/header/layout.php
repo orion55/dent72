@@ -25,9 +25,24 @@ $search_visible = get_theme_mod('header_search', dentalcare_theme()->customizer-
             <div class="site-branding">
                 <?php dentalcare_header_logo() ?>
             </div>
-
             <div class="header-nav-wrapper">
-                123
+                <?php $address = carbon_get_theme_option('crb_address');
+                if (!empty($address)): ?>
+                    <div class="address__text">
+                        <i class="fa fa-home fa-2x menu-icon" aria-hidden="true"></i>
+                        <span class="address__desc"><?php echo $address; ?></span>
+                    </div>
+                <?php endif; ?>
+                <div class="phone phone--one">
+                    <?php $phone1 = carbon_get_theme_option('crb_phone1');
+                    $phone_href = '+73452673075';
+                    $phone_text = '+7 (3452) 67-30-75';
+                    if (!empty($phone1)): $phone_href = preg_replace("/[^0-9+]+/i", "", $phone1);
+                        $phone_text = $phone1;
+                    endif; ?>
+                    <i class="fa fa-phone fa-2x menu-icon" aria-hidden="true"></i><a href="tel:<?php echo $phone_href ?>"
+                                                                           class="phone-number"><?php echo $phone_text ?></a>
+                </div>
             </div>
         </div>
     </div>
