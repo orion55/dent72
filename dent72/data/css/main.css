@@ -1,9 +1,3 @@
-#content::-moz-selection {
-  background-color: #02AEAE;
-  color: white;
-}
-
-#content::selection {
-  background-color: #02AEAE;
-  color: white;
+header#masthead.site-header.style-1 div.top-panel.invert div.container div.top-panel__container div.top-panel__wrap-items div.top-panel__menus {
+  justify-content: flex-end;
 }

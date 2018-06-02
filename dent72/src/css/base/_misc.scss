@@ -1,7 +1,6 @@
 @import "_vars.scss";
 @import "_smart-grid.scss";
 
-#content::selection {
-  background-color: $color-main;
-  color: white;
+header#masthead.site-header.style-1 div.top-panel.invert div.container div.top-panel__container div.top-panel__wrap-items div.top-panel__menus {
+  justify-content: flex-end;
 }

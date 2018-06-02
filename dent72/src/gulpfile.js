@@ -87,7 +87,7 @@ gulp.task('deploy-ftp', function () {
         log: gutil.log
     });
 
-    const path = '/wp-content/themes/medika72/data/';
+    const path = '/wordpress/public_html/wp-content/themes/dent72/data/';
 
     var globs = [
         '../data/' + subfolder + '/**'
