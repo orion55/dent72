@@ -28,11 +28,22 @@ header#masthead.site-header.style-1 div.top-panel.invert div.container div.top-p
   margin-top: 0;
 }
 
-.site-logo__link img{
+.site-logo__link img {
   transition: all .5s ease-out;
   &:hover {
     transform: scale(1.1);
   }
+}
+
+div.site-branding {
+  display: flex;
+  align-items: center;
+}
+
+.logo-desc {
+  padding-top: 5px;
+  color: $color-main;
+  font-weight: 400;
 }
 
 @media only screen and (min-device-width: 768px) and (max-width: 1199px) {
@@ -53,5 +64,8 @@ header#masthead.site-header.style-1 div.top-panel.invert div.container div.top-p
   }
   .address__text {
     padding-bottom: 10px;
+  }
+  div.site-branding {
+    flex-direction: column;
   }
 }
