@@ -51,7 +51,8 @@ function dentalcare_cherry_team_data_callbacks( $data = array() ) {
 	$data['title_phone']    = 'dentalcare_get_cherry_team_title_phone';
 	$data['title_location'] = 'dentalcare_get_cherry_team_title_location';
 	$data['title_email']    = 'dentalcare_get_cherry_team_title_email';
-	$data['content_title']  = 'dentalcare_get_cherry_team_content_title';
+	$data['content_title']  = '';
+//	$data['content_title']  = 'dentalcare_get_cherry_team_content_title';
 
 	return $data;
 }
