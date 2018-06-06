@@ -81,11 +81,18 @@ div.site-branding {
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
-  font-size: 3em;
+  font-size: 4em;
 }
 
 .icon__block {
   text-align: center;
+}
+#dent-team .cherry-team.team-wrap .team-listing {
+  justify-content: center;
+}
+
+#dent-testi .tm-testi--default-4 .tm-testi__item .tm-testi-left-col {
+  margin-right: 0;
 }
 
 @media only screen and (min-device-width: 768px) and (max-width: 1199px) {
