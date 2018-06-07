@@ -88,6 +88,7 @@ div.site-branding {
 .icon__block {
   text-align: center;
 }
+
 #dent-team .cherry-team.team-wrap .team-listing {
   justify-content: center;
 }
@@ -96,9 +97,17 @@ div.site-branding {
   margin-right: 0;
 }
 
+#office-galleris .ngg-galleryoverview {
+  width: 90%;
+  margin: 0 auto;
+}
+
 @media only screen and (min-device-width: 768px) and (max-width: 1199px) {
   div.top-panel__menus div.social-list.social-list--header.social-list--icon {
     padding-right: 0;
+  }
+  #office-galleris .ngg-galleryoverview {
+    width: 80%;
   }
 }
 
@@ -117,5 +126,8 @@ div.site-branding {
   }
   div.site-branding {
     flex-direction: column;
+  }
+  #office-galleris .ngg-galleryoverview {
+    width: 70%;
   }
 }

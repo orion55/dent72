@@ -117,6 +117,11 @@ div.site-branding {
   margin-right: 0;
 }
 
+#office-galleris .ngg-galleryoverview {
+  width: 90%;
+  margin: 0 auto;
+}
+
 .wpcf7-form {
   padding: 30px 30px 0 30px;
   margin: 0 auto;
@@ -196,7 +201,6 @@ form.wpcf7-form > p {
 
 .wpcf7-form .btn:hover {
   color: white;
-  border-color: #02AEAE;
   background-color: #333333;
 }
 
@@ -232,9 +236,21 @@ form.wpcf7-form.sent div.wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sen
   margin-top: 0;
 }
 
+.form-group--invert {
+  color: white;
+}
+
+#form-invert .wpcf7-form {
+  padding: 0;
+}
+
 @media only screen and (min-device-width: 768px) and (max-width: 1199px) {
   div.top-panel__menus div.social-list.social-list--header.social-list--icon {
     padding-right: 0;
+  }
+
+  #office-galleris .ngg-galleryoverview {
+    width: 80%;
   }
 }
 
@@ -257,6 +273,10 @@ form.wpcf7-form.sent div.wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sen
 
   div.site-branding {
     flex-direction: column;
+  }
+
+  #office-galleris .ngg-galleryoverview {
+    width: 70%;
   }
 
   .wpcf7-form div.name,
