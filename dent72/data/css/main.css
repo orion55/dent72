@@ -41,9 +41,10 @@ div.site-branding {
 }
 
 .logo-desc {
-  padding-top: 5px;
+  padding-top: 7px;
   color: #02AEAE;
   font-weight: 400;
+  font-size: 22px;
 }
 
 @-webkit-keyframes hvr-pulse {
