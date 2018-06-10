@@ -9,7 +9,7 @@ if ( ! get_theme_mod( 'single_post_navigation', dentalcare_theme()->customizer->
 	return;
 }
 
-the_post_navigation( array(
+/*the_post_navigation( array(
 	'prev_text' => esc_html__( 'Prev Post', 'dentalcare' ),
 	'next_text' => esc_html__( 'Next Post', 'dentalcare' ),
-) );
+) );*/
