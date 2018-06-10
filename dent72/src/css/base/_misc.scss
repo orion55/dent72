@@ -102,6 +102,11 @@ div.site-branding {
   margin: 0 auto;
 }
 
+#license-galleris .ngg-galleryoverview {
+  width: 92%;
+  margin: 0 auto;
+}
+
 #gismap iframe {
   border: none !important;
   width: 100%;
@@ -120,6 +125,9 @@ div.site-branding {
   }
   #office-galleris .ngg-galleryoverview {
     width: 80%;
+  }
+  #license-galleris .ngg-galleryoverview {
+    width: 55%;
   }
 }
 
@@ -140,6 +148,9 @@ div.site-branding {
     flex-direction: column;
   }
   #office-galleris .ngg-galleryoverview {
+    width: 70%;
+  }
+  #license-galleris .ngg-galleryoverview {
     width: 70%;
   }
 }

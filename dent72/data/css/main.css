@@ -122,6 +122,11 @@ div.site-branding {
   margin: 0 auto;
 }
 
+#license-galleris .ngg-galleryoverview {
+  width: 92%;
+  margin: 0 auto;
+}
+
 #gismap iframe {
   border: none !important;
   width: 100%;
@@ -263,6 +268,10 @@ form.wpcf7-form.sent div.wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sen
   #office-galleris .ngg-galleryoverview {
     width: 80%;
   }
+
+  #license-galleris .ngg-galleryoverview {
+    width: 55%;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -287,6 +296,10 @@ form.wpcf7-form.sent div.wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sen
   }
 
   #office-galleris .ngg-galleryoverview {
+    width: 70%;
+  }
+
+  #license-galleris .ngg-galleryoverview {
     width: 70%;
   }
 
