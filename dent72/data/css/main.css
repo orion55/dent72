@@ -277,6 +277,53 @@ form.wpcf7-form.sent div.wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sen
   padding: 0;
 }
 
+.table-serv-home {
+  border: 1px solid #017c7c;
+  border-radius: 10px;
+  box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+  margin: 1em auto 20px auto;
+  overflow: hidden;
+  width: 100%;
+}
+
+table.table__services-home {
+  width: 100%;
+  border: none;
+  margin-bottom: 0;
+}
+
+table.table__services-home td,
+table.table__services-home th {
+  padding: 10px;
+}
+
+table.table__services-home th,
+table.table__services-home th sup {
+  background-color: #017c7c;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+table.table__services-home tr td:nth-child(1) {
+  text-align: left;
+}
+
+table.table__services-home tr:nth-child(2n+1) td {
+  background-color: #02AEAE;
+  color: white;
+}
+
+table.table__services-home tr:nth-child(2n+1) td:nth-child(2) {
+  white-space: nowrap;
+}
+
+table.table__services-home tr:nth-child(2n) td {
+  background-color: white;
+  color: black;
+}
+
 @media only screen and (min-device-width: 768px) and (max-width: 1199px) {
   div.top-panel__menus div.social-list.social-list--header.social-list--icon {
     padding-right: 0;
@@ -328,5 +375,9 @@ form.wpcf7-form.sent div.wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sen
 
   .wpcf7-form div.name {
     padding-right: 0;
+  }
+
+  table.table__services-home tr:nth-child(2n+1) td:nth-child(2) {
+    white-space: normal;
   }
 }
